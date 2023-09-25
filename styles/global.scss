@@ -1,0 +1,88 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+$fa-font-path: '~@fortawesome/fontawesome-free/webfonts';
+@import '@fortawesome/fontawesome-free/scss/fontawesome.scss';
+@import '@fortawesome/fontawesome-free/scss/regular.scss';
+@import '@fortawesome/fontawesome-free/scss/solid.scss';
+@import '@fortawesome/fontawesome-free/scss/brands.scss';
+
+:root {
+    font-family: Quicksand;
+}
+
+a {
+    cursor: pointer;
+}
+
+.Header {
+    /* height: 120px; */
+    margin: 0 auto;
+    padding: 1rem 2rem;
+    color: #46505a;
+    font-weight: bold;
+}
+
+.Header.NavigationLinks {
+    margin-top: 1rem;
+}
+
+.Header.NavigationLinks a {
+    margin-right: 1rem;
+}
+
+.Header.Logo img {
+    height: 45px;
+}
+
+.Header.ActionLinks {
+    height: 88px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+.Header.ActionLinks a {
+    margin-left: 15px;
+    font-size: 22px;
+}
+
+
+
+.HeroImage {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.HeroImage.lower {
+    background-color: white;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(226, 230, 225, 1) 100%);
+}
+
+.Wide {
+    min-width: 296px;
+    max-width: 100%;
+}
+
+.Slim {
+    min-width: 296px;
+    max-width: 1280px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 0 32px;
+}
+
+button {
+    color: #ffffff;
+    background-color: #93a5a1;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+.trustpilot-5 {
+    width: 256px;
+    height: 48px;
+    background-image: url(/images/foto_dk_rating_paa_trustpilot.png);
+}
