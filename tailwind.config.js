@@ -1,9 +1,13 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
-    './pages/**/*.{js,ts,jsx,tsx,mdx}',
-    './components/**/*.{js,ts,jsx,tsx,mdx}',
-    './libs/**/*.{js,ts,jsx,tsx,mdx}',
+    './pages/**/*.{js,ts,jsx,tsx}',
+    './posts/**/*.{md}',
+    './components/**/*.{js,ts,jsx,tsx}',
+    './libs/**/*.{js,ts,jsx,tsx}',
+  ],
+  safelist: [
+    { pattern: /grid-cols-./, }
   ],
   theme: {
     colors: {
@@ -15,12 +19,12 @@ module.exports = {
       'demo': '#1f7a8c',
       'alert': '#ffca78',
       'theme': '#e95420',
-      'theme-g-0': '#e2e6e1',
-      'theme-g-1': '#bac5bf',
-      'theme-g-2': '#93a5a1',
-      'theme-g-3': '#6d8587',
-      'theme-g-4': '#4b666f',
-      'theme-g-5': '#f8f9fa',
+      'theme-g-0': '#f5f5ed',
+      'theme-g-1': '#f5f5ed',
+      'theme-g-2': '#e8e8e1',
+      'theme-g-3': '#8a8a86',
+      'theme-g-4': '#4a4a48',
+      'theme-g-5': '#333331',
     },
     screens: {
       'sm': '640px',
@@ -53,12 +57,14 @@ module.exports = {
         }
       },
       gridTemplateColumns: {
-        '4': 'repeat(4, minmax(0, 1fr))',
+        '4': 'lg:repeat(4, minmax(0, 1fr))',
         '5': 'repeat(5, minmax(0, 1fr))'
       }
     },
-    plugins: [
-      require('@tailwindcss/typography')
-    ],
-  }
+  },
+  plugins: [
+    require('@tailwindcss/typography')({
+      className: 'prose',
+    })
+  ],
 }
