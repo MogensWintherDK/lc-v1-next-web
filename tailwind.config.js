@@ -2,12 +2,15 @@
 module.exports = {
   content: [
     './pages/**/*.{js,ts,jsx,tsx}',
-    './posts/**/*.{md}',
+    './posts/**/*.md',
     './components/**/*.{js,ts,jsx,tsx}',
     './libs/**/*.{js,ts,jsx,tsx}',
   ],
   safelist: [
-    { pattern: /grid-cols-./, }
+    {
+      pattern: /grid-cols-./,
+      variants: ['sm', 'md', 'lg', 'xl', '2xl', '3xl'],
+    }
   ],
   theme: {
     colors: {
@@ -56,10 +59,6 @@ module.exports = {
           }
         }
       },
-      gridTemplateColumns: {
-        '4': 'lg:repeat(4, minmax(0, 1fr))',
-        '5': 'repeat(5, minmax(0, 1fr))'
-      }
     },
   },
   plugins: [
