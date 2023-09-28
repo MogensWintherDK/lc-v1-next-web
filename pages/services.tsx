@@ -38,7 +38,7 @@ export default function ServicesPage(props: any): React.JSX.Element {
                 </div>
             </LNXHeaderSection>
             <div className='PostsSection'>
-                <LNXRow cols='3'>
+                <LNXRow cols='4'>
 
                     {props.posts && props.posts.length > 0 ? props.posts.map((post: IPost) => (
                         <LNXPostCard
