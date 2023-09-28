@@ -1,6 +1,6 @@
 [submodule "libs/lib-lnx"]
 	path = libs/lib-lnx
-	url = https://github.com/MogensWintherDK/lib-lnx.git
+	url = git@github.com:MogensWintherDK/lib-lnx.git
 [submodule "libs/lib-cms"]
 	path = libs/lib-cms
-	url = https://github.com/MogensWintherDK/lib-cms.git
+	url = git@github.com:MogensWintherDK/lib-cms.git
