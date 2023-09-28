@@ -1,6 +1,6 @@
 [submodule "libs/lib-lnx"]
 	path = libs/lib-lnx
-	url = https://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@github.com/MogensWintherDK/lib-lnx.git
+	url = https://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@github.com/MogensWintherDK/lib-lnx.git
 [submodule "libs/lib-cms"]
 	path = libs/lib-cms
-	url = https://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@github.com/MogensWintherDK/lib-cms.git
+	url = https://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@github.com/MogensWintherDK/lib-cms.git
