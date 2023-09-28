@@ -26,14 +26,13 @@ rm -rf tmp || true # remove the tmp folder if exists
 mkdir tmp # create the tmp folder
 cd tmp # go into the tmp folder
 
-# Clone lib-cms and move it into place
+# Clone lib-cms
 git clone https://$GITHUB_ACCESS_TOKEN@$SUBMODULE_GITHUB_CMS # add origin of the submodule
-cd .. # go folder up
-rm -rf tmp/.git # remove .git 
-mv tmp/* $SUBMODULE_PATH/ # move the submodule to the submodule path
 
-# Clone lib-lnx and move it into place
+# Clone lib-lnx
 git clone https://$GITHUB_ACCESS_TOKEN@$SUBMODULE_GITHUB_LNX # add origin of the submodule
+
+# Remove .git information and move the submodules into place
 cd .. # go folder up
 rm -rf tmp/.git # remove .git 
 mv tmp/* $SUBMODULE_PATH/ # move the submodule to the submodule path
