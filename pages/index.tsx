@@ -30,7 +30,7 @@ export async function getStaticProps() {
         empower: await getPost('empower', "posts/blocks"),
         direction: await getPost('direction', "posts/blocks"),
         hybrid: await getPost('hybrid', "posts/blocks"),
-        contact: await getPost('contact', "posts/blocks"),
+        get_in_touch: await getPost('get-in-touch', "posts/blocks"),
       },
       draftMode: isLNXStagingMode(),
       revalidate: getLNXRevalidationTime(),
@@ -87,7 +87,7 @@ export default function Home(props: any) {
         <div className='Slim mt-8'>
           <LNXTwoGrid>
             <LNXMarkdownBlock data={props.blocks.hybrid} />
-            <LNXMarkdownBlock data={props.blocks.contact} />
+            <LNXMarkdownBlock data={props.blocks.get_in_touch} />
           </LNXTwoGrid>
         </div>
 
