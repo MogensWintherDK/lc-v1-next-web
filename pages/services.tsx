@@ -28,7 +28,7 @@ export const getStaticProps = async () => {
     };
 };
 
-export default function posts(props: any): React.JSX.Element {
+export default function ServicesPage(props: any): React.JSX.Element {
     return (
         <Layout header_data={props.header_data} footer_data={props.footer_data} metadata={props.metadata}>
             <LNXHeaderSection>

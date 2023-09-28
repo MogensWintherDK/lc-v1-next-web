@@ -26,7 +26,7 @@ export const getStaticProps = async ({ params }: { params: any }) => {
 };
 
 
-export default function post({ content, frontmatter }: IPost): React.JSX.Element {
+export default function ServicePage({ content, frontmatter }: IPost): React.JSX.Element {
     const [imageSize, setImageSize] = useState(100);
     const [imageTop, setImageTop] = useState(100);
     const [imageRight, setImageRight] = useState(100);
