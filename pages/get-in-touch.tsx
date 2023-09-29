@@ -1,4 +1,5 @@
-import { LNXHeaderSection, LNXRow, LNXTextGridCard } from '../libs/lib-lnx/components';
+import { LNXTwoGrid } from '../libs/lib-lnx/components';
+import { LNXBackgroundImageBlock, LNXMarkdownBlock } from '../libs/lib-lnx/components/Blocks';
 import {
     isLNXStagingMode,
     getLNXRevalidationTime,
@@ -19,7 +20,7 @@ export const getStaticProps = async () => {
     return {
         props: {
             blocks: {
-                about: await getPost('about', "posts/blocks"),
+                get_in_touch: await getPost('get-in-touch', "posts/pages"),
             },
             draftMode: isLNXStagingMode(),
             revalidate: getLNXRevalidationTime(),
@@ -30,11 +31,10 @@ export const getStaticProps = async () => {
 export default function GetInTouchPage(props: any): React.JSX.Element {
     return (
         <Layout>
-            <LNXHeaderSection>
-                <div>
-                    <b>Get in touch</b>
-                </div>
-            </LNXHeaderSection>
+            <LNXTwoGrid>
+                <LNXMarkdownBlock data={props.blocks.get_in_touch} />
+                <LNXBackgroundImageBlock className='min-h-[600px]' src='/images/large/contact.jpg' />
+            </LNXTwoGrid>
         </Layout >
     );
 }
