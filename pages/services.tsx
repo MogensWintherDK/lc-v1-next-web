@@ -34,11 +34,11 @@ export default function ServicesPage(props: any): React.JSX.Element {
             <LNXHeaderSection>
                 <div>
                     <b>It is OK to ask for help!</b><br />
-                    <span className='text-xl sm:text-2xl md:text-3xl'>And we can help in a lot of different areas. Take a deep-dive!</span>
+                    <span className='text-xl sm:text-2xl md:text-3xl'>And there help to found in a lot of different areas. Take a deep-dive!</span>
                 </div>
             </LNXHeaderSection>
             <div className='PostsSection'>
-                <LNXRow cols='4'>
+                <LNXRow cols='3'>
 
                     {props.posts && props.posts.length > 0 ? props.posts.map((post: IPost) => (
                         <LNXPostCard
