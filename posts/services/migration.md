@@ -22,11 +22,11 @@ Applications and services built in the Cloud and for the Cloud are often straigh
 
 On-site application migration can be tricky and requires more planning, structure, and understanding. 
 
-In this process, it can be a great benefit to review the actual application, its use, and requirements. During the lifetime of an application, these parameters often change, and if we are going to spend time migrating the application we should also focus on the application itself.
+In this process, it can be a great benefit to review the actual application, its use, and requirements. During the lifetime of an application, these parameters often change, and if you are going to spend time migrating the application you should also focus on the application itself.
 
 > An application not designed for the cloud can be quite complex to migrate
 
-I have a lot of experience with dockerizing applications and services, both for the development and production process. I have been running most applications in the Cloud since 2009, mainly at AWS and later on at Google Cloud and others.
+I have a lot of experience with dockerizing applications and services, both for the development and production process. I have been running most applications in the Cloud since 2009, mainly at AWS and later at Google Cloud and others.
 
 ## _Merging multiple services/applications_
 
