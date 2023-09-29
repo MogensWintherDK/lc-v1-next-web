@@ -30,7 +30,7 @@ I have a lot of experience with dockerizing applications and services, both for 
 
 ## _Merging multiple services/applications_
 
-After the company merger, changes in operational flows, and a lot of other cases we can be in a situation where multiple systems/services/applications need to be migrated into a single existing or new solution. 
+After a company merger, changes in operational flows, and a lot of other cases we can be in a situation where multiple systems/services/applications need to be merged into a single existing or new solution. 
 
 Migrations like this require good planning, understanding of the data, structure, and testing. In most cases, live data are involved, ensuring the single source of truth.
 
