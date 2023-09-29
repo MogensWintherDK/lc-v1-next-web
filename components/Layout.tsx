@@ -54,7 +54,7 @@ const Layout: React.FC<IProps> = ({ children, ...props }) => {
 
                 <Header data={header_data} blur={toggleBlur} />
 
-                <main className={`${showBlur ? 'blur-sm' : ''} mt-[60px] md:mt-[110px]`}>
+                <main className={`${showBlur ? 'blur-sm' : ''} mt-[100px]`}>
                     {children}
                 </main>
 
