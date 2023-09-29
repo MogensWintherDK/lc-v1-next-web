@@ -45,7 +45,7 @@ An example of a KPI can be the operational cost per end-customer order. This pro
 
 **Reduction in cost**
 
-Reduction of the cost is tightly bound to the performance optimization process as well. When we remove 
+Reduction of the cost is tightly bound to the performance optimization process as well. When using the right services, handling growing data, and eliminating bottlenecks we often also find potential savings. A walkthrough of the individual cost elements, like storage cost, computing, etc. can also help pinpoint areas to investigate further.
 
 **Cost reduction services**
 
@@ -62,7 +62,7 @@ The process is commonly like this
 - Get a fast overview
 - Define and agree on the goals with the stakeholders
 - Take a deep dive
-- Create and agree on the action plan stakeholders
+- Create and agree on the action plan with the stakeholders
 - Execute the action plan with the team
 - Evaluate with the stakeholders
 
