@@ -14,7 +14,7 @@ My process is like this:
 - Evaluate the results with the stakeholders
 - Prepare the next iteration if needed
 - Handover to the teams
-- Debrefe with the stakeholder
+- Debrief with the stakeholder
 
 With my background as a software developer, system designer, CTO, and manager, I have been through this process a lot of times.
 
