@@ -23,6 +23,7 @@ export default function Header({ ...props }) {
                 <div className='w-full pt-1  text-theme text-sm text-center'>
                     <LNXLinkText className='mx-4 inline' href='/' text='Home' />
                     <LNXLinkText className='mx-4 inline' href='/services' text='Services' />
+                    <LNXLinkText className='mx-4 inline' href='/process' text='Process' />
                     <LNXLinkText className='mx-4 inline' href='/about' text='About' />
                     <LNXLinkText className='mx-4 inline' href='/get-in-touch' text='Get in touch' />
                 </div>
