@@ -9,7 +9,7 @@ export default function Header({ ...props }) {
             <div className={`grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 w-full items-stretch justify-items-center justify-center`}>
 
                 {/* Logo - Left */}
-                <div className="justify-left mr-auto">
+                <div className="justify-left mr-auto hidden md:block">
                     <a href='/'>
                         <Image className='inline' src='/images/logo/LC-Logo-Circle-V2-30px.png' width='30' height='30' alt='Linux Consulting - Logo'></Image>
                         <span className='ml-2 h-[30] align-middle text-theme-g-3 text-sm hidden lg:inline-block'>
