@@ -1,4 +1,5 @@
-import { LNXHeaderSection, LNXRow, LNXTextGridCard } from '../libs/lib-lnx/components';
+import { LNXTwoGrid } from '../libs/lib-lnx/components';
+import { LNXBackgroundImageBlock, LNXMarkdownBlock } from '../libs/lib-lnx/components/Blocks';
 import {
     isLNXStagingMode,
     getLNXRevalidationTime,
@@ -30,11 +31,10 @@ export const getStaticProps = async () => {
 export default function AboutPage(props: any): React.JSX.Element {
     return (
         <Layout>
-            <LNXHeaderSection>
-                <div>
-                    <b>whoami</b>
-                </div>
-            </LNXHeaderSection>
+            <LNXTwoGrid >
+                <LNXMarkdownBlock data={props.blocks.about} />
+                <LNXBackgroundImageBlock className='max-h-[700px]' src='/images/large/mogens.jpg' />
+            </LNXTwoGrid>
         </Layout >
     );
 }
