@@ -1,10 +1,10 @@
 ---
-title: System optimization
+title: Optimization
 description: Are you suffering from slow performance or high operational costs?
 isPublished: true
 publishedDate: 26/9-2023
-thumb: /images/small/system_optimization.webp
-image: /images/large/system_optimization.webp
+thumb: /images/small/optimization.jpg
+image: /images/large/optimization.jpg
 tags:
   - System optimazation
   - Performance

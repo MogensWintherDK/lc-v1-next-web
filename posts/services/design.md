@@ -1,10 +1,10 @@
 ---
-title: System design
-description: Technical system design defines the full picture of your technical landscape
+title: Design
+description: Large scale technical system design defining the full picture
 isPublished: true
 publishedDate: 26/9-2023
-thumb: /images/small/system_design.webp
-image: /images/large/system_design.jpg
+thumb: /images/small/design.jpg
+image: /images/large/design.jpg
 tags:
   - next
 ---

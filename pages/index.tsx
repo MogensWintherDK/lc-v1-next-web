@@ -60,27 +60,27 @@ export default function Home(props: any) {
 
 
         <LNXRow>
-          <LNXCircleTextCard image_src='/images/small/cloud.webp' header='Cloud migration' link_text='Read more' link_href='/services/cloud-migration' />
-          <LNXCircleTextCard image_src='/images/small/migration.webp' header='System optimization' link_text='Read more' link_href='#' />
-          <LNXCircleTextCard image_src='/images/small/perspective.webp' header='Perspective' link_text='Read more' link_href='#' />
-          <LNXCircleTextCard image_src='/images/small/system_design.webp' header='System design' link_text='Read more' link_href='#' />
-          <LNXCircleTextCard image_src='/images/small/strategy.webp' header='Strategy' link_text='Read more' link_href='#' />
+          <LNXCircleTextCard image_src='/images/small/migration.jpg' header='Migration' link_text='Read more' link_href='/services/migration' />
+          <LNXCircleTextCard image_src='/images/small/optimization.jpg' header='Optimization' link_text='Read more' link_href='/services/optimization' />
+          <LNXCircleTextCard image_src='/images/small/perspective.jpg' header='Perspective' link_text='Read more' link_href='/services/perspective' />
+          <LNXCircleTextCard image_src='/images/small/design.jpg' header='Design' link_text='Read more' link_href='/services/design' />
+          <LNXCircleTextCard image_src='/images/small/strategy.jpg' header='Strategy' link_text='Read more' link_href='/services/strategy' />
         </LNXRow>
 
         <div className='mt-8 py-8 bg-theme-g-0'>
           <LNXTwoGrid>
             <LNXMarkdownBlock data={props.blocks.chaos} />
-            <LNXBackgroundImageBlock src='/images/small/chaos.webp' />
+            <LNXBackgroundImageBlock src='/images/large/chaos.jpg' />
           </LNXTwoGrid>
           <div className='h-8' />
           <LNXTwoGrid>
-            <LNXBackgroundImageBlock src='/images/small/team.webp' />
+            <LNXBackgroundImageBlock src='/images/large/team.jpg' />
             <LNXMarkdownBlock data={props.blocks.empower} />
           </LNXTwoGrid>
           <div className='h-8' />
           <LNXTwoGrid>
             <LNXMarkdownBlock data={props.blocks.direction} />
-            <LNXBackgroundImageBlock src='/images/small/perspective.webp' />
+            <LNXBackgroundImageBlock src='/images/large/perspective.jpg' />
           </LNXTwoGrid>
         </div>
 

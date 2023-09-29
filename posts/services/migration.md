@@ -1,10 +1,10 @@
 ---
-title: Cloud migration
-description: Migration of on-site legacy services to the cloud
+title: Migration
+description: Migration of on-site legacy services to the cloud, and merge of multiple services
 isPublished: true
 publishedDate: 26/9-2023
-thumb: /images/small/migration.webp
-image: /images/small/migration.webp
+thumb: /images/small/migration.jpg
+image: /images/large/migration.jpg
 tags:
   - Cloud
   - Migration
