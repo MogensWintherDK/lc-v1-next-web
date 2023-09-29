@@ -38,7 +38,7 @@ export default function ServicePage({ content, frontmatter }: IPost): React.JSX.
             const windowWidth = window.innerWidth;
             const boxWidth = ref.current.offsetWidth;
             const marginRight = (windowWidth - boxWidth) / 2;
-            const imageSize = marginRight > 200 ? marginRight * 1.95 : 1;
+            const imageSize = marginRight > 200 ? marginRight * 2.5 : 1;
             setImageSize(imageSize);
             setImageTop(-(imageSize / 3) + headerHeight);
             setImageRight(-(imageSize / 2));
@@ -53,7 +53,7 @@ export default function ServicePage({ content, frontmatter }: IPost): React.JSX.
             <div ref={ref} className="Slim">
 
                 {/* Article section */}
-                <div className='pt-16' style={{ minHeight: minHeight + 'px' }}>
+                <div className='pt-16 pr-96' style={{ minHeight: minHeight + 'px' }}>
                     <Markdown content={content} />
                 </div>
 
