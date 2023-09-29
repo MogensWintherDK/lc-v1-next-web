@@ -36,12 +36,12 @@ export default function Home(props: any) {
       <LNXHeaderSection>
         <div>
           <b>Need a strong technical Managing Consultant?</b><br />
-          <span className='text-xl sm:text-2xl md:text-3xl'>Getting a good start is half the job, and we can help with that!</span>
+          <span className='text-xl sm:text-2xl md:text-3xl'>Getting a good start is half the job, and I can help with that!</span>
         </div>
       </LNXHeaderSection>
 
       <LNXTextSection>
-        When we are busy with everyday tasks and don&quot;t have a movement to stop and get some perspective, then it can be very hard to see how to move forward.
+        When we are busy with everyday tasks and don&apos;t have a movement to stop and get some perspective, then it can be very hard to see how to move forward.
       </LNXTextSection>
 
 
