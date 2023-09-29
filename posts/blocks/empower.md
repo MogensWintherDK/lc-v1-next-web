@@ -2,7 +2,7 @@
 
 **I strongly believe in empowering people**
 
-I believe in empowering people to solve the problems on their own. This helps them grow and enables them to solve the next complex issue on their own. People
+I believe in empowering people to solve the problems on their own. This helps them grow and enables them to solve the next complex issue on their own.
 
 **The big picture**
 
