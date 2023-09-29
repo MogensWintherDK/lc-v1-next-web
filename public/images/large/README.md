@@ -1,0 +1,1 @@
+Large format images in 1080x1080px jpg format and a compression around 80% giving a filesize of max 
