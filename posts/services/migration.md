@@ -14,9 +14,9 @@ tags:
 
 # Migration
 
-**Are you heading againt a Cloud migration, or a migrating multiple applications?**
+**Are you heading against a Cloud migration, or merging multiple applications?**
 
-## Migrating to the Cloud
+## _Migrating to the Cloud_
 
 Applications and services built in the Cloud and for the Cloud are often straightforward to handle.
 
@@ -28,10 +28,10 @@ In this process, it can be a great benefit to review the actual application, its
 
 I have a lot of experience with dockerizing applications and services, both for the development and production process. I have been running most applications in the Cloud since 2009, mainly at AWS and later on at Google Cloud and others.
 
-## Migrating multiple services
+## _Merging multiple services/applications_
 
 After the company merger, changes in operational flows, and a lot of other cases we can be in a situation where multiple systems/services/applications need to be migrated into a single existing or new solution. 
 
-Migrations like this require good planning, understanding of the data, structure, and testing. In most cases, live data are involved, and ensuring the single source of truth.
+Migrations like this require good planning, understanding of the data, structure, and testing. In most cases, live data are involved, ensuring the single source of truth.
 
 [Get in touch](/get-in-touch)
