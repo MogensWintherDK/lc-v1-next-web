@@ -3,6 +3,7 @@ title: Management
 description: Teamwork is hardwork, and some teams needs a bit more help getting on track
 isPublished: true
 publishedDate: 2022/07/22
+thumb: /images/small/management.webp
 image: /images/small/management.webp
 tags:
   - next

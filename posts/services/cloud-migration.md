@@ -3,6 +3,7 @@ title: Cloud migration
 description: Migration of on-site legacy services to the cloud
 isPublished: true
 publishedDate: 26/9-2023
+thumb: /images/small/migration.webp
 image: /images/small/migration.webp
 tags:
   - Cloud

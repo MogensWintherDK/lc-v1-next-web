@@ -3,7 +3,8 @@ title: Strategy
 description: To move forward we need to know what direction that is
 isPublished: true
 publishedDate: 26/9-2023
-image: /images/small/strategy.webp
+thumb: /images/small/strategy.webp
+image: /images/large/strategy.jpg
 tags:
   - Strategy
   - Direction

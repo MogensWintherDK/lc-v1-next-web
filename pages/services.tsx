@@ -47,7 +47,7 @@ export default function ServicesPage(props: any): React.JSX.Element {
                             text={post.frontmatter.description}
                             link_href={`${categoryPath}/${post.slug}`}
                             link_text='Read now'
-                            image_src={post.frontmatter.image}
+                            image_src={post.frontmatter.thumb}
                         />
                     )) : null}
                 </LNXRow>
