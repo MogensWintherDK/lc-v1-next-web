@@ -4,7 +4,7 @@ Having a clearly defined strategy and vision as a company is the perfect situati
 
 **It is easy to lose focus of the direction when your head is in the mud all day**
 
-When things are no so clearly defined people tend to keep focus on what is in front of them, focus on themself rather than the team or company.
+When things are not so clearly defined people tend to keep focus on what is in front of them, focus on themself rather than the team or company.
 
 A fresh perspective and a clear direction help teams perform great again.
 
