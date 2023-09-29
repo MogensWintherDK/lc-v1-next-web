@@ -58,10 +58,10 @@ export default function ServicePage({ content, frontmatter }: IPost): React.JSX.
                 </div>
 
                 {/* Lower bar */}
-                <div className='bg-theme-g-4 text-white mt-2 p-4 rounded'>
+                {/* <div className='bg-theme-g-4 text-white mt-2 p-4 rounded'>
                     <h2>{frontmatter.title}</h2>
                     <span>Published: {frontmatter.publishedDate} / Tags: {frontmatter.tags.join(', ')}</span>
-                </div>
+                </div> */}
             </div>
             <div className='bg-cover bg-demo absolute rounded-full z-0'
                 style={{
