@@ -1,19 +1,16 @@
-# Right direction
+# Direction
 
-**It is easy to loose focus of the direction when your head is in the mud all day**
+Having a clearly defined strategy and vision as a company is the perfect situation. Then we have the big lines drawn for us already, and all can pull in the same direction.
 
-A fresh perspective and a clear direction and help teams perform great again.
+**It is easy to lose focus of the direction when your head is in the mud all day**
 
-**Have a defined horizon**
+When things are no so clearly defined people tend to keep focus on what is in front of them, focus on themself rather than the team or company.
 
-On a business level we can have a great strategy for our business, and it is defenetly needed.
+A fresh perspective and a clear direction help teams perform great again.
 
-What could a definition of a horizon be:
-> Over a period of time we need our solution to be cloud-based and migrating all applications to docker.
-> Some more 
-> Some more
+**A defined dot in the horizon is a good start**
 
-Not long ago I spoke with a lead developer who said:
+Until we have our strategy and vision in place, defining a dot on the horizon can help development teams a lot. It provides a beakon for guidance, and often makes the developers make smarter choices.
+
+Not long ago I spoke with a lead developer, in a company needing a defined direction, who said:
 > We are ready to build anything now, the team has been working great lately, but we just don't know what to build next
-
-A clear lack of long term planing and direction.

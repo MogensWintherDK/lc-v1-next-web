@@ -10,15 +10,17 @@ tags:
 ---
 
 ## Management
-**Are you missing a CTO or team lead for a period of time?**
 
-Changes happens to all organizations and sometimes we need a quick solution to an urgen problem. If you are missing a CTO or a strong team lead for a period of time, it can be a smart move to have me jump in and full the role while you search for the permanent cndidate.
+**Are you missing a CTO or team lead for some time?**
+
+Changes happen to all organizations and sometimes we need a quick solution to an urgent problem. If you are missing a CTO or a strong team lead for some time, it can be a smart move to have me jump in and fill the role while you search for a permanent candidate.
 
 **Experience**
 
-My expieriende in a fast growing online industry as CTO, leader and mentor allow to quickly take over smaller teams for a limited period of time.
+My experience in a fast-growing online industry as CTO, leader, and mentor allows me to quickly take over smaller teams for a limited period.
 
-**The perminent candidate**
+**The permanent candidate**
 
 When the permanent candidate has been found, I can also assist in the interview process to ensure the right candidate is chosen.
 
+[Get in touch](/get-in-touch)

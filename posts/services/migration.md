@@ -12,18 +12,26 @@ tags:
   - GCP
 ---
 
-# Cloud migration
-**Are you looking into the need of migrating an application to the cloud?**
+# Migration
 
-## Things to consider
-When we migrate applications to the cloud we can benefit greatly from reviewing the actual application, it use and rquirements. During the lifetime of an application this often changes, and we are going to spend time migrating the application, we could also put some focus on the application itself.
+**Are you heading againt a Cloud migration, or a migrating multiple applications?**
 
-## Choice of migration
+## Migrating to the Cloud
 
-## The right cloud provider
+Applications and services built in the Cloud and for the Cloud are often straightforward to handle.
 
-## Security aspects
+On-site application migration can be tricky and requires more planning, structure, and understanding. 
 
-## Future maintenance and dvelopment
+In this process, it can be a great benefit to review the actual application, its use, and requirements. During the lifetime of an application, these parameters often change, and if we are going to spend time migrating the application we should also focus on the application itself.
 
-![AltText {caption: Photo credit: Some Person}{priority}{200x432}](/images/1.webp)
+> An application not designed for the cloud can be quite complex to migrate
+
+I have a lot of experience with dockerizing applications and services, both for the development and production process. I have been running most applications in the Cloud since 2009, mainly at AWS and later on at Google Cloud and others.
+
+## Migrating multiple services
+
+After the company merger, changes in operational flows, and a lot of other cases we can be in a situation where multiple systems/services/applications need to be migrated into a single existing or new solution. 
+
+Migrations like this require good planning, understanding of the data, structure, and testing. In most cases, live data are involved, and ensuring the single source of truth.
+
+[Get in touch](/get-in-touch)

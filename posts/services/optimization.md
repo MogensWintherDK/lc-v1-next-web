@@ -10,7 +10,6 @@ tags:
   - Performance
   - Cost reduction
 ---
-
 # System optimization
 
 **A system optimization process covers a lot of different areas**
@@ -50,19 +49,21 @@ Reduction of the cost is tightly bound to the performance optimization process a
 
 **Cost reduction services**
 
-A number of services can keep track of your cloud service cost, and in some cases this can be a good idea, as there are a lot of money to save by doing it right.
+Several services can keep track of your cloud service cost, and in some cases, this can be a good idea, as there is a lot of money to save by doing it right.
 
-Companies like AWS can make a cost analysis report for you and come withe recommendations on cost reduction.
+Companies like AWS can make a cost analysis report for you and come up with recommendations on cost reduction.
 
 ## _The goal_
-A performance process can be never-ending if the goals is not clearly defined. In other words _"What the optimization should bring"_
+A performance process can be never-ending if the goals are not clearly defined. In other words _"What the optimization should bring"_
 
 ## _The process_
 
 The process is commonly like this
 - Get a fast overview
-- Define and agree on the goals
+- Define and agree on the goals with the stakeholders
 - Take a deep dive
-- Create and agree on the action plan
-- Execute the action plan
-- Evaluate
+- Create and agree on the action plan stakeholders
+- Execute the action plan with the team
+- Evaluate with the stakeholders
+
+[Get in touch](/get-in-touch)

@@ -13,14 +13,15 @@ tags:
 
 # Strategy
 
-**We all know that we have to move forward...**
+Creating the strategy for your business is a process normally handled by the management, and can for good reason not be outsourced.
 
-And we all know that our kompeteters will take our market share if we don't. But wgich direction is forward? Is it the same direction as it was last year or five years ago? 
+## Help to technical aspects
+In cases where a larger technical solution is involved in the vision, and there are a large number of unknowns on the big picture, it can be an idea to pressure test the concept on a theoretical level or create prototypes to prove critical elements.
 
-## The helocopter view
+## Implementing the strategy
+A strategy can be pretty clear on a business level, but hard to imagine implemented on a technical level. In cases like this, it can be valuable to get an outsider's perspective on the suggested implementation.
 
-## New technopligy
+## Need help
+I have created and worked with strategies and visions a lot and I am happy to help.
 
-## Direction of the market
-
-## Quantum leap, not mouse steps
+[Get in touch](/get-in-touch)
