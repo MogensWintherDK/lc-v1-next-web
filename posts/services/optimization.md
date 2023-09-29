@@ -13,7 +13,7 @@ tags:
 # System optimization
 
 **A system optimization process covers a lot of different areas**
-, and common for is that a deep understanding of the system and the setup around it is required. 
+, and common for that is a deep understanding of the system and the setup around it. 
 
 ## _Performance_
 As the business grows more users/orders/transactions are generating more traffic, and the service/processes/capabilities are getting extended over time, it is not uncommon to run into performance issues. 
