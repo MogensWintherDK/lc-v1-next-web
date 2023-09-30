@@ -33,7 +33,7 @@ export default function AboutPage(props: any): React.JSX.Element {
         <Layout>
             <LNXTwoGrid >
                 <LNXMarkdownBlock data={props.blocks.about} />
-                <LNXBackgroundImageBlock className='max-h-[700px]' src='/images/large/mogens.jpg' />
+                <LNXBackgroundImageBlock className='max-h-[700px]' src='/images/large/mogens_winther_bw.jpg' />
             </LNXTwoGrid>
         </Layout >
     );
