@@ -1,5 +1,4 @@
-import { LNXTwoGrid } from '../libs/lib-lnx/components';
-import { LNXBackgroundImageBlock, LNXMarkdownBlock } from '../libs/lib-lnx/components/Blocks';
+import { LNXMarkdownBlock } from '../libs/lib-lnx/components/Blocks';
 import {
     isLNXStagingMode,
     getLNXRevalidationTime,
@@ -10,18 +9,18 @@ import { ILNXMetadata } from '../libs/lib-lnx/types/Metadata';
 import { getLNXFullUrl, getLNXTitle } from '../libs/lib-lnx/utils/Metadata';
 
 const categoryName = 'posts/pages';
-const categoryPath = 'process';
+const categoryPath = 'technical-skills';
 
 export const getStaticProps = async () => {
     const post = getPost(categoryPath, categoryName);
 
-    const metadata = {
+    const metadata: ILNXMetadata = {
         title: getLNXTitle(post.frontmatter.title),
         description: post.frontmatter.description,
         keywords: post.frontmatter.keywords,
         url: getLNXFullUrl(categoryPath),
         thumb: getLNXFullUrl(post.frontmatter.thumb),
-    } as ILNXMetadata;
+    }
 
     return {
         props: {
@@ -36,10 +35,9 @@ export const getStaticProps = async () => {
 export default function AboutPage(props: any): React.JSX.Element {
     return (
         <Layout metadata={props.metadata}>
-            <LNXTwoGrid>
+            <div className='Slim TechnicalSkills'>
                 <LNXMarkdownBlock data={props.post} />
-                <LNXBackgroundImageBlock src={props.post.frontmatter.image} />
-            </LNXTwoGrid>
+            </div>
         </Layout >
     );
 }

@@ -1,3 +1,12 @@
+---
+title: Process
+description: Drop me in the chaos and I will help you through the process
+keywords: Process, Goal, Action plan, Evaluate
+isPublished: false
+publishedDate: 26/9-2023
+thumb: /images/small/process.jpg
+image: /images/large/process.jpg
+---
 # My process
 
 **Drop me in the chaos and I will help you through the process**

@@ -1,6 +1,7 @@
 ---
 title: Optimization
 description: Are you suffering from slow performance or high operational costs?
+keywords: Slow performance, high cost, operational cost, system optimization
 isPublished: true
 publishedDate: 26/9-2023
 thumb: /images/small/optimization.jpg

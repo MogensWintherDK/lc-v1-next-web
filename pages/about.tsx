@@ -6,34 +6,39 @@ import {
 } from '../libs/lib-lnx/utils';
 import { getPost } from '../services/PostsService';
 import Layout from '../components/Layout';
+import { ILNXMetadata } from '../libs/lib-lnx/types/Metadata';
+import { getLNXFullUrl, getLNXTitle } from '../libs/lib-lnx/utils/Metadata';
 
-interface IPost {
-    slug: string,
-    title: string,
-    frontmatter?: any,
-}
-
-const categoryName = 'posts/services';
-const categoryPath = 'services';
+const categoryName = 'posts/pages';
+const categoryPath = 'about';
 
 export const getStaticProps = async () => {
+    const post = getPost(categoryPath, categoryName);
+
+    const metadata: ILNXMetadata = {
+        title: getLNXTitle(post.frontmatter.title),
+        description: post.frontmatter.description,
+        keywords: post.frontmatter.keywords,
+        url: getLNXFullUrl(categoryPath),
+        thumb: getLNXFullUrl(post.frontmatter.thumb),
+    }
+
     return {
         props: {
-            blocks: {
-                about: await getPost('about', "posts/blocks"),
-            },
+            post: post,
             draftMode: isLNXStagingMode(),
             revalidate: getLNXRevalidationTime(),
+            metadata: metadata,
         }
     };
 };
 
 export default function AboutPage(props: any): React.JSX.Element {
     return (
-        <Layout>
+        <Layout metadata={props.metadata}>
             <LNXTwoGrid >
-                <LNXMarkdownBlock data={props.blocks.about} />
-                <LNXBackgroundImageBlock className='max-h-[700px]' src='/images/large/mogens_winther_bw.jpg' />
+                <LNXMarkdownBlock data={props.post} />
+                <LNXBackgroundImageBlock className='max-h-[700px]' src={props.post.frontmatter.image} />
             </LNXTwoGrid>
         </Layout >
     );

@@ -1,6 +1,7 @@
 ---
 title: Management
 description: Teamwork is hardwork, and some teams needs a bit more help getting on track
+keywords: Management, CTP, Teamwork, leader , mentor
 isPublished: true
 publishedDate: 2022/07/22
 thumb: /images/small/management.jpg

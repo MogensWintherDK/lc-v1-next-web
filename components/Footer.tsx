@@ -20,6 +20,7 @@ export default function Footer({ ...props }) {
                     <LNXLinkText href='/services' text='Services' className='block' />
                     <LNXLinkText href='/process' text='Process' className='block' />
                     <LNXLinkText href='/about' text='About' className='block' />
+                    <LNXLinkText href='/technical-skills' text='Technical skills' className='block' />
                 </div>
             </LNXRow >
 

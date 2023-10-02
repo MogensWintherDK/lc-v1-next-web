@@ -10,4 +10,4 @@ I am a team player with good communication skills and a structured approach to m
 
 Do you need help with the chaos, or would you like my advice?
 
-Contact me at: mw@linuxconsulting.dk or +45 299 399 80
+[Get in touch](/get-in-touch)

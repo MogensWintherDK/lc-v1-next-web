@@ -6,31 +6,36 @@ import {
 import { getPublishedPosts } from '../services/PostsService';
 import Layout from '../components/Layout';
 import { LNXPostCard } from '../libs/lib-lnx/components/Cards';
-
-interface IPost {
-    slug: string,
-    title: string,
-    frontmatter?: any,
-}
+import { ILNXMetadata } from '../libs/lib-lnx/types/Metadata';
+import { getLNXFullUrl, getLNXTitle } from '../libs/lib-lnx/utils/Metadata';
+import { IPost } from '../services/PostsService';
 
 const categoryName = 'posts/services';
 const categoryPath = 'services';
 
 export const getStaticProps = async () => {
     const posts = getPublishedPosts(categoryName);
+
+    const metadata: ILNXMetadata = {
+        title: getLNXTitle('Services'),
+        description: 'It is OK to ask for help!',
+        keywords: 'Services, Help',
+        url: getLNXFullUrl(categoryPath),
+        thumb: getLNXFullUrl('/images/small/migration.jpg'),
+    }
     return {
         props: {
             posts,
             draftMode: isLNXStagingMode(),
             revalidate: getLNXRevalidationTime(),
-            header_data: {},
+            metadata: metadata,
         }
     };
 };
 
 export default function ServicesPage(props: any): React.JSX.Element {
     return (
-        <Layout header_data={props.header_data} footer_data={props.footer_data} metadata={props.metadata}>
+        <Layout metadata={props.metadata}>
             <LNXHeaderSection>
                 <div>
                     <b>It is OK to ask for help!</b><br />

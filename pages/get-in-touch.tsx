@@ -6,34 +6,39 @@ import {
 } from '../libs/lib-lnx/utils';
 import { getPost } from '../services/PostsService';
 import Layout from '../components/Layout';
+import { ILNXMetadata } from '../libs/lib-lnx/types/Metadata';
+import { getLNXFullUrl, getLNXTitle } from '../libs/lib-lnx/utils/Metadata';
 
-interface IPost {
-    slug: string,
-    title: string,
-    frontmatter?: any,
-}
-
-const categoryName = 'posts/services';
-const categoryPath = 'services';
+const categoryName = 'posts/pages';
+const categoryPath = 'get-in-touch';
 
 export const getStaticProps = async () => {
+    const post = getPost(categoryPath, categoryName);
+
+    const metadata: ILNXMetadata = {
+        title: getLNXTitle(post.frontmatter.title),
+        description: post.frontmatter.description,
+        keywords: post.frontmatter.keywords,
+        url: getLNXFullUrl(categoryPath),
+        thumb: getLNXFullUrl(post.frontmatter.thumb),
+    }
+
     return {
         props: {
-            blocks: {
-                get_in_touch: await getPost('get-in-touch', "posts/pages"),
-            },
+            post: post,
             draftMode: isLNXStagingMode(),
             revalidate: getLNXRevalidationTime(),
+            metadata: metadata,
         }
     };
 };
 
 export default function GetInTouchPage(props: any): React.JSX.Element {
     return (
-        <Layout>
+        <Layout metadata={props.metadata}>
             <LNXTwoGrid>
-                <LNXMarkdownBlock data={props.blocks.get_in_touch} />
-                <LNXBackgroundImageBlock className='min-h-[600px]' src='/images/large/contact.jpg' />
+                <LNXMarkdownBlock data={props.post} />
+                <LNXBackgroundImageBlock className='min-h-[600px]' src={props.post.frontmatter.image} />
             </LNXTwoGrid>
         </Layout >
     );

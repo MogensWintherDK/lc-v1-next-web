@@ -1,6 +1,7 @@
 ---
 title: Migration
 description: Migration of on-site legacy services to the cloud, and merge of multiple services
+keywords: Migration, Cloud migration, Legacy service, data migration, AWS, GCP, Google Cloud, Cloud
 isPublished: true
 publishedDate: 26/9-2023
 thumb: /images/small/migration.jpg

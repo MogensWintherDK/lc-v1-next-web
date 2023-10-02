@@ -4,6 +4,10 @@ import { IPost, getPost, getPublishedPosts } from '../../services/PostsService';
 import Layout from '../../components/Layout';
 import { Markdown } from "../../libs/lib-lnx/utils/Markdown";
 import { getLNXNavigationHeaderHeight } from '../../libs/lib-lnx/utils';
+import { ILNXMetadata } from '../../libs/lib-lnx/types/Metadata';
+import { getLNXFullUrl, getLNXTitle } from '../../libs/lib-lnx/utils/Metadata';
+
+const section = 'services';
 
 export const getStaticPaths = async () => {
     const paths = getPublishedPosts("posts/services").map(({ slug }) => ({ params: { slug } }));
@@ -15,18 +19,28 @@ export const getStaticPaths = async () => {
 };
 
 export const getStaticProps = async ({ params }: { params: any }) => {
-    const { content, frontmatter } = await getPost(params.slug, "posts/services");
+    const { content, frontmatter } = await getPost(params.slug, 'posts/' + section);
+
+    const metadata: ILNXMetadata = {
+        title: getLNXTitle(frontmatter.title, section),
+        description: frontmatter.description,
+        keywords: frontmatter.keywords,
+        url: getLNXFullUrl(section, params.slug),
+        thumb: getLNXFullUrl(frontmatter.thumb),
+        section: section,
+    }
 
     return {
         props: {
             content: content,
             frontmatter: frontmatter,
+            metadata: metadata,
         },
     };
 };
 
 
-export default function ServicePage({ content, frontmatter }: IPost): React.JSX.Element {
+export default function ServicePage({ content, frontmatter, metadata }: IPost): React.JSX.Element {
     const [imageSize, setImageSize] = useState(100);
     const [imageTop, setImageTop] = useState(100);
     const [imageRight, setImageRight] = useState(100);
@@ -48,8 +62,9 @@ export default function ServicePage({ content, frontmatter }: IPost): React.JSX.
         handleResize();
     })
 
+
     return (
-        <Layout>
+        <Layout metadata={metadata}>
             <div ref={ref} className="Slim">
 
                 {/* Article section */}

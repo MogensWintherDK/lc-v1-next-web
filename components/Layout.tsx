@@ -8,13 +8,11 @@ import Footer from './Footer';
 
 interface IProps {
     children: ReactNode,
-    header_data?: any,
-    footer_data?: any,
     metadata?: any,
 }
 
-const Layout: React.FC<IProps> = ({ children, ...props }) => {
-    const metadata = {
+const Layout: React.FC<IProps> = ({ children, metadata }) => {
+    const meta = metadata || {
         title: 'title',
         description: 'title',
         keywords: undefined,
@@ -35,18 +33,18 @@ const Layout: React.FC<IProps> = ({ children, ...props }) => {
             <div className="bg-fdkgreen text-dark">
 
                 <Head>
-                    <title>{metadata.title}</title>
-                    <meta name="description" content={metadata.description} />
+                    <title>{meta.title}</title>
+                    <meta name="description" content={meta.description} />
                     {
-                        metadata.keywords && (
-                            <meta name="keywords" content={metadata.keywords} />
+                        meta.keywords && (
+                            <meta name="keywords" content={meta.keywords} />
                         )
                     }
                     {/* Facebook headers */}
-                    <meta property="og:image" content={metadata.page_url} />
-                    <meta property="og:title" content={metadata.title} />
-                    <meta property="og:description" content={metadata.description} />
-                    <meta property="og:url" content={metadata.page_url} />
+                    <meta property="og:image" content={meta.thumb} />
+                    <meta property="og:title" content={meta.title} />
+                    <meta property="og:description" content={meta.description} />
+                    <meta property="og:url" content={meta.url} />
 
 
                     <link rel="icon" href="/favicon.ico" />

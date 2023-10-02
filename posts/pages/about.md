@@ -1,3 +1,11 @@
+---
+title: whoami
+description: More details on me, my skills, and my background
+keywords: Contact, Skills, background
+isPublished: true
+thumb: /images/small/mogens_winther_bw.jpg
+image: /images/large/mogens_winther_bw.jpg
+---
 # whoami
 
 ## _Contact information_
@@ -5,8 +13,12 @@
 - Linux Consulting ApS
 - Galten, Jutland, Denmark
 - mw@linuxconsulting.dk
-- +45 299 399 80
 - [LinkedIn](https://www.linkedin.com/in/mogenswinther/)
+
+## Technical skills
+API backend and processing services written in PHP have for a period been the most used technical skills, but there are naturally much more than that.
+
+[See the full list here](/technical-skills)
 
 ## Background
 

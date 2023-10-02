@@ -1,6 +1,7 @@
 ---
 title: Strategy
 description: To move forward we need to know what direction that is
+keywords: Strategy, Concept, Prototype, Implementation
 isPublished: true
 publishedDate: 26/9-2023
 thumb: /images/small/strategy.jpg
@@ -12,7 +13,6 @@ tags:
 ---
 
 # Strategy
-
 Creating the strategy for your business is a process normally handled by the management, and can for good reason not be outsourced.
 
 ## Help to technical aspects

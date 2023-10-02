@@ -7,6 +7,8 @@ import {
 import { LNXRow, LNXCircleTextCard } from '../libs/lib-lnx/components';
 import { getPost } from '../services/PostsService';
 import { LNXBackgroundImageBlock, LNXMarkdownBlock } from '../libs/lib-lnx/components/Blocks';
+import { getLNXFullUrl } from '../libs/lib-lnx/utils/Metadata';
+import { ILNXMetadata } from '../libs/lib-lnx/types/Metadata';
 
 export async function getStaticProps() {
 
@@ -21,6 +23,13 @@ export async function getStaticProps() {
       },
       draftMode: isLNXStagingMode(),
       revalidate: getLNXRevalidationTime(),
+      metadata: {
+        title: 'IT Technical and Managing Consultant',
+        description: 'Get experienced help to solve your challenges faster',
+        keywords: 'IT, Technical, Managing, Chaos, Experience, Developer, Empower, Team, Big picture, Direction',
+        url: getLNXFullUrl('/'),
+        thumb: getLNXFullUrl('/images/logo/LC-Logo-Circle-V2-300px.png'),
+      } as ILNXMetadata,
     },
     revalidate: getLNXRevalidationTime(),
   };
@@ -29,13 +38,13 @@ export async function getStaticProps() {
 export default function Home(props: any) {
 
   return (
-    <Layout header_data={props.header_data} footer_data={props.footer_data} metadata={props.metadata}>
+    <Layout metadata={props.metadata}>
       {props.draftMode && (
         <div className="bg-alert fixed top-0 z-[1000] p-2 m-2 rounded">Staging - Cache expires in {props.revalidate} sec</div>
       )}
       <LNXHeaderSection>
         <div>
-          <b>Need a strong technical Managing Consultant?</b><br />
+          <b>Need a strong Technical Managing Consultant?</b><br />
           <span className='text-xl sm:text-2xl md:text-3xl'>Getting a good start is half the job, and I can help with that!</span>
         </div>
       </LNXHeaderSection>

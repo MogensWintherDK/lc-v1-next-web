@@ -1,6 +1,7 @@
 ---
 title: Design
 description: Large scale technical system design defining the full picture
+keywords: Design, System design, Big picture, Concept design
 isPublished: false
 publishedDate: 26/9-2023
 thumb: /images/small/design.jpg
