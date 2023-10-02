@@ -58,7 +58,6 @@ Companies like AWS can make a cost analysis report for you and come up with reco
 A performance process can be never-ending if the goals are not clearly defined. In other words _"What the optimization should bring"_
 
 ## _The process_
-
 The process is commonly like this
 - Get a fast overview
 - Define and agree on the goals with the stakeholders
@@ -66,5 +65,10 @@ The process is commonly like this
 - Create and agree on the action plan with the stakeholders
 - Execute the action plan with the team
 - Evaluate with the stakeholders
+
+## _Complex cases_
+Not all cases are as common as the examples given above. In cases where very complex data and data processing are involved, the performance challenges can be much more complex and require a deep-level analysis. The same goes for larger setups with multiple layers of services.
+
+The solutions can be anything from change of system structure, code optimization, algorithm optimization, data preprocessing, and much more.
 
 [Get in touch](/get-in-touch)
