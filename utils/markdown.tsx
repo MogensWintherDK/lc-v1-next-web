@@ -13,7 +13,6 @@ const getFileContent = (filename: string, folder: string) => {
 
 export const getAllMarkdownFiles = (folder: string) => {
     const POSTS_PATH = getPath(folder);
-    console.log(POSTS_PATH);
 
     return fs
         .readdirSync(POSTS_PATH) // get files in directory
