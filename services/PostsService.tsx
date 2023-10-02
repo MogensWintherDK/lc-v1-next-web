@@ -1,9 +1,11 @@
-import Image from "next/image";
 import { getAllMarkdownFiles, getMarkdownFileContent } from "../utils/markdown"
+import { ILNXMetadata } from "../libs/lib-lnx/types/Metadata";
 
 export interface IPost {
     content: string,
     frontmatter: any,
+    slug?: string,
+    metadata?: ILNXMetadata,
 }
 
 export const getPublishedPosts = (folder: string) => {
