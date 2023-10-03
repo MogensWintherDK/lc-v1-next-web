@@ -10,17 +10,16 @@ import { ILNXMetadata } from '../libs/lib-lnx/types/Metadata';
 import { getLNXFullUrl, getLNXTitle } from '../libs/lib-lnx/utils/Metadata';
 import { IPost } from '../services/PostsService';
 
-const categoryName = 'posts/services';
-const categoryPath = 'services';
+const slug = 'services';
 
 export const getStaticProps = async () => {
-    const posts = getPublishedPosts(categoryName);
+    const posts = getPublishedPosts(slug);
 
     const metadata: ILNXMetadata = {
         title: getLNXTitle('Services'),
         description: 'It is OK to ask for help!',
         keywords: 'Services, Help',
-        url: getLNXFullUrl(categoryPath),
+        url: getLNXFullUrl(slug),
         thumb: getLNXFullUrl('/images/small/migration.jpg'),
     }
     return {
@@ -38,7 +37,7 @@ export default function ServicesPage(props: any): React.JSX.Element {
         <Layout metadata={props.metadata}>
             <LNXHeaderSection>
                 <div>
-                    <b>It is OK to ask for help!</b><br />
+                    <h1 className='text-2xl sm:text-4xl md:text-5xl font-bold'>It is OK to ask for help!</h1>
                     <span className='text-xl sm:text-2xl md:text-3xl'>Take a deep-dive!</span>
                 </div>
             </LNXHeaderSection>
@@ -50,7 +49,7 @@ export default function ServicesPage(props: any): React.JSX.Element {
                             key={post.slug}
                             header={post.frontmatter.title}
                             text={post.frontmatter.description}
-                            link_href={`${categoryPath}/${post.slug}`}
+                            link_href={`${post.category}/${post.slug}`}
                             link_text='Read now'
                             image_src={post.frontmatter.thumb}
                         />

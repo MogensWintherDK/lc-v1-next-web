@@ -5,7 +5,7 @@ import {
   getLNXRevalidationTime,
 } from '../libs/lib-lnx/utils';
 import { LNXRow, LNXCircleTextCard } from '../libs/lib-lnx/components';
-import { getPost } from '../services/PostsService';
+import { getPostBlock } from '../services/PostsService';
 import { LNXBackgroundImageBlock, LNXMarkdownBlock } from '../libs/lib-lnx/components/Blocks';
 import { getLNXFullUrl } from '../libs/lib-lnx/utils/Metadata';
 import { ILNXMetadata } from '../libs/lib-lnx/types/Metadata';
@@ -15,11 +15,11 @@ export async function getStaticProps() {
   return {
     props: {
       blocks: {
-        chaos: await getPost('chaos', "posts/blocks"),
-        empower: await getPost('empower', "posts/blocks"),
-        direction: await getPost('direction', "posts/blocks"),
-        hybrid: await getPost('hybrid', "posts/blocks"),
-        get_in_touch: await getPost('get-in-touch', "posts/blocks"),
+        chaos: await getPostBlock('chaos'),
+        empower: await getPostBlock('empower'),
+        direction: await getPostBlock('direction'),
+        hybrid: await getPostBlock('hybrid'),
+        get_in_touch: await getPostBlock('get-in-touch'),
       },
       draftMode: isLNXStagingMode(),
       revalidate: getLNXRevalidationTime(),
@@ -44,7 +44,7 @@ export default function Home(props: any) {
       )}
       <LNXHeaderSection>
         <div>
-          <b>Need a strong Technical Managing Consultant?</b><br />
+          <h1 className='text-2xl sm:text-4xl md:text-5xl font-bold'>Need a strong Technical Managing Consultant?</h1>
           <span className='text-xl sm:text-2xl md:text-3xl'>Getting a good start is half the job, and I can help with that!</span>
         </div>
       </LNXHeaderSection>

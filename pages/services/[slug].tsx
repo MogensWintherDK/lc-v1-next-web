@@ -7,10 +7,10 @@ import { getLNXNavigationHeaderHeight } from '../../libs/lib-lnx/utils';
 import { ILNXMetadata } from '../../libs/lib-lnx/types/Metadata';
 import { getLNXFullUrl, getLNXTitle } from '../../libs/lib-lnx/utils/Metadata';
 
-const section = 'services';
+const category = 'services';
 
 export const getStaticPaths = async () => {
-    const paths = getPublishedPosts("posts/services").map(({ slug }) => ({ params: { slug } }));
+    const paths = getPublishedPosts(category).map(({ slug }) => ({ params: { slug } }));
 
     return {
         paths,
@@ -19,15 +19,15 @@ export const getStaticPaths = async () => {
 };
 
 export const getStaticProps = async ({ params }: { params: any }) => {
-    const { content, frontmatter } = await getPost(params.slug, 'posts/' + section);
+    const { content, frontmatter } = await getPost(params.slug, category);
 
     const metadata: ILNXMetadata = {
-        title: getLNXTitle(frontmatter.title, section),
+        title: getLNXTitle(frontmatter.title, category),
         description: frontmatter.description,
         keywords: frontmatter.keywords,
-        url: getLNXFullUrl(section, params.slug),
+        url: getLNXFullUrl(category, params.slug),
         thumb: getLNXFullUrl(frontmatter.thumb),
-        section: section,
+        category: category,
     }
 
     return {
