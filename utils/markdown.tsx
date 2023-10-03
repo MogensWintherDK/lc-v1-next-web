@@ -11,7 +11,8 @@ const getFileContent = (filename: string, folder: string) => {
     return fs.readFileSync(path.join(POSTS_PATH, filename), "utf8");
 };
 
-export const getAllMarkdownFiles = (folder: string) => {
+export const getAllMarkdownFiles = (category: string) => {
+    const folder = 'posts/' + category;
     const POSTS_PATH = getPath(folder);
 
     return fs
@@ -23,15 +24,20 @@ export const getAllMarkdownFiles = (folder: string) => {
             const { data } = matter(source); // extract frontmatter
             return {
                 frontmatter: data,
+                category: category,
                 slug: slug,
             };
         });
 };
 
-export const getMarkdownFileContent = (filename: string, folder: string) => {
+export const getMarkdownFileContent = (slug: string, category: string) => {
+    const filename = slug;
+    const folder = 'posts/' + category;
     const source = getFileContent(filename + '.md', folder);
     const { data: frontmatter, content } = matter(source);
     return {
+        slug,
+        category,
         frontmatter,
         content,
     };
