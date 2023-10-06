@@ -14,7 +14,7 @@ export default function Header({ ...props }) {
                     <Link href='/'>
                         <Image className='inline' src='/images/logo/LC-Logo-Circle-V2-30px.png' width='30' height='30' alt='Linux Consulting - Logo'></Image>
                         <span className='ml-2 h-[30] align-middle text-theme-g-3 text-sm hidden lg:inline-block'>
-                            Linux Consulting ApS
+                            WintherConsulting.dk
                         </span>
                     </Link>
                 </div>
@@ -24,6 +24,7 @@ export default function Header({ ...props }) {
                     <LNXLinkText className='mx-4 inline' href='/' text='Home' />
                     <LNXLinkText className='mx-4 inline' href='/services' text='Services' />
                     <LNXLinkText className='mx-4 inline' href='/process' text='Process' />
+                    <LNXLinkText className='mx-4 inline' href='/pricing' text='Pricing' />
                     <LNXLinkText className='mx-4 inline' href='/about' text='About' />
                     <LNXLinkText className='mx-4 inline' href='/get-in-touch' text='Get in touch' />
                 </div>
@@ -31,7 +32,7 @@ export default function Header({ ...props }) {
                 {/* Name - Right */}
                 <div className='text-theme-g-3 text-sm justify-end ml-auto hidden lg:block mt-[-6px] h-[40px]'>
                     <Link href='/about'>
-                        Linux Consulting ApS, Denmark<br />
+                        WintherConsulting.dk, Denmark<br />
                         Technical Managing Consultant, Mogens Winther
                     </Link>
                 </div>
