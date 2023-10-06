@@ -20,7 +20,7 @@ export default function Footer({ ...props }) {
                 </div>
 
                 <div className="w-56">
-                    <div className="font-bold">Cases</div>
+                    <LNXLinkText href='/cases' text='Cases' className="font-bold" />
                     <LNXLinkText href='/cases/cloudprintercom' text='Cloudprinter.com' className='block' />
                     <LNXLinkText href='/cases/fotodk' text='Foto.dk' className='block' />
                 </div>
