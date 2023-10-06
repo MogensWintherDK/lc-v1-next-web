@@ -4,8 +4,8 @@ description: To move forward we need to know what direction that is
 keywords: Strategy, Concept, Prototype, Implementation
 isPublished: true
 publishedDate: 26/9-2023
-thumb: /images/small/strategy.jpg
-image: /images/large/strategy.jpg
+thumb: /images/small/strategy_road.jpg
+image: /images/large/strategy_road.jpg
 tags:
   - Strategy
   - Direction
@@ -22,6 +22,6 @@ In cases where a larger technical solution is involved in the vision, and there 
 A strategy can be pretty clear on a business level, but hard to imagine implemented on a technical level. In cases like this, it can be valuable to get an outsider's perspective on the suggested implementation.
 
 ## Need help
-I have created and worked with strategies and visions a lot and I am happy to help.
+I have created and worked with visions and strategies a lot and I am happy to help.
 
 [Get in touch](/get-in-touch)

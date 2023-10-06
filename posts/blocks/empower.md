@@ -4,9 +4,9 @@
 
 I believe in empowering people to solve the problems on their own. This helps them grow and enables them to solve the next complex issue on their own.
 
-**The big picture**
+**The growing big picture**
 
-I like to challenge people on their big picture, and step-by-step make their picture larger and larger. This process allows people to grow with the idea and form their mental big picture.  Without that, they will struggle to understand the vision and direction.
+I like to challenge people on their big picture, and step-by-step make their picture larger and larger. This process allows people to grow with the idea and form their mental big picture.  Without that, they will struggle to understand the vision and strategy.
 
 **Learning requires time**
 
