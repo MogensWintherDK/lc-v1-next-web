@@ -3,11 +3,8 @@ title: Perspective
 description: We all need an extra set of eyes on complex projects, it brings a new perspective
 keywords: Perspective, Vision, Strategy, MVP
 isPublished: true
-publishedDate: 26/9-2023
 thumb: /images/small/perspective.jpg
 image: /images/large/perspective.jpg
-tags:
-  - next
 ---
 
 # Perspective
@@ -16,7 +13,7 @@ tags:
 
 But the reality is often very different, as we might have a strategy that was last updated a few years ago when the conditions and market were different, so should we go right or left?
 
-## _Big picture_
+## _The big picture_
 
 I always operate with the big picture, based on a deep understanding of the entire process/flow of the service. I do not need to know every detail, but I need a medium-to-high level.
 
