@@ -1,5 +1,5 @@
 import Layout from '../components/Layout';
-import { LNXHeaderSection, LNXTextSection, LNXTwoGrid } from '../libs/lib-lnx/components';
+import { LNXHeaderSection, LNXLineDark, LNXTextSection, LNXTwoGrid } from '../libs/lib-lnx/components';
 import {
   isLNXStagingMode,
   getLNXRevalidationTime,
@@ -92,6 +92,8 @@ export default function Home(props: any) {
           <LNXSquareTextCard image_src='/images/external/fotodk.png' header='Foto.dk' link_text='Read more' link_href='/cases/fotodk' />
         </LNXRow>
       </div>
+
+      <LNXLineDark />
 
       <div className='Slim mt-8'>
         <LNXTwoGrid>
