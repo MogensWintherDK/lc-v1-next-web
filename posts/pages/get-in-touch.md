@@ -8,9 +8,19 @@ image: /images/large/contact.jpg
 ---
 # Get in touch
 
-## Let's have a call
+**Let's have a call**
+
 If you are interested in my services for a short-term or long-term project, then reach out and we can discuss the details.
 
+## _Contact information_
+- **Mogens Winther**
 - mw@linuxconsulting.dk
 - +45 299 399 80
 - [LinkedIn](https://www.linkedin.com/in/mogenswinther/)
+
+## _Company information_
+- Linux Consulting ApS
+- Brombærvænget
+- 8464 Galten
+- DK - Denmark
+- VAT: DK32885233

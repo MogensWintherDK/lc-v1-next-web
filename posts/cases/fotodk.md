@@ -11,7 +11,8 @@ tags:
   - next
 ---
 
-# Foto.dk - An online photoservice in Denmark
+# Foto.dk
+**An online photoservice in Denmark**
 
 ## _Introduction_
 Together with Jesper Lillelund (as CEO), I (as CTO) founded Foto.dk A/S back in 2009, and we are still shareholders. Jesper came with the business, marketing, and photo background, and I had the required technical background and technical vision, a great combination to build up a business.

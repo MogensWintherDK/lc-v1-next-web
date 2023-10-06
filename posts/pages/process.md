@@ -1,31 +1,41 @@
 ---
 title: Process
 description: Drop me in the chaos and I will help you through the process
-keywords: Process, Goal, Action plan, Evaluate
+keywords: Process, Goal, Action plan, Evaluate, SOW
 isPublished: false
-publishedDate: 26/9-2023
 thumb: /images/small/process.jpg
 image: /images/large/process.jpg
 ---
-# My process
+# Process
 
-**Drop me in the chaos and I will help you through the process**
+**It is my experience that every project is different and that there is no one-fit-all process model. What is also my experience is the need for a clear statement of work so everyone is aligned with the scope, deliverables, and schedule.**
 
-This is kind of my mantra, and based on this I use my experience, skills, and structure to make order in the chaos. Create processes for the teams and a clear direction to follow.
+My process is based on this template
 
-My process is like this:
+- **Step 1 - Initial analysis**
+    - Get a fast overview
+    - Get to know the involved parties
+    - Understand the background and goal of the process
+    - Take a deeper dive and create the analysis
+    - Create and agree on the action plan, the SOW, with the stakeholders
 
-- Get a fast overview
-- Understand the goal of the process
-- Take a deeper dive and create the analysis
-- Create and agree on the action plan with the stakeholders
-- Execute the plan with the team
-- Evaluate the results with the stakeholders
-- Prepare the next iteration if needed
-- Handover to the teams
-- Debrief with the stakeholder
+- **Step 2 - Execution**
+    - Execute the plan with the team
+    - Evaluate the results with the stakeholders
+    - Handover to the teams
+    - Debrief with the stakeholder
 
-With my background as a software developer, system designer, CTO, and manager, I have been through this process a lot of times.
+With my background as a software developer, system designer, CTO, and manager, I have been through this process a lot of times in different variations, both working internally internally and in cooperation with external companies.
+
+## Statement of Work (SOW)
+A clear action plan is needed and the SOW document is exactly that.
+
+The content of the SOW includes
+- Purpose - Why are we doing the project
+- Scope of work - A detailed description of the work to be done
+- Location of work - A description of where the work takes place, including meetings
+- Period of performance - A specification of the timeframe for the project
+- Deliverables schedule - A list of elements and their due date
 
 **Management or hands-on**
 

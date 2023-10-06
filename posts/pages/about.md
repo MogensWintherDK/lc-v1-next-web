@@ -8,12 +8,15 @@ image: /images/large/mogens_winther_bw.jpg
 ---
 # whoami
 
-## _Contact information_
-**Mogens Winther**
-- Linux Consulting ApS
-- Galten, Jutland, Denmark
-- mw@linuxconsulting.dk
-- [LinkedIn](https://www.linkedin.com/in/mogenswinther/)
+**It is hard to describe in just a few words, but I will give it a try**
+
+> Mogens Winther
+
+> Technical Managing Consultant
+
+> High-level system designer and software developer with a strong background in embedded software development
+
+> A strong leader and mentor with a big-picture approach and a process that includes expanding perspective and empowering the people I work with
 
 ## Technical skills
 API backend and processing services written in PHP have for a period been the most used technical skills, but there are naturally much more than that.
