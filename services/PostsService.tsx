@@ -11,6 +11,14 @@ export interface IPost {
     metadata?: ILNXMetadata,
 }
 
+export interface IPostData {
+    category?: string,
+    slug?: string,
+    frontmatter: any,
+    content: string,
+    metadata: ILNXMetadata,
+}
+
 export const getPublishedPosts = (folder: string): IPost[] => {
     const posts = getAllPosts(folder)
 
