@@ -19,4 +19,3 @@ export default function AboutPage(props: any): React.JSX.Element {
         </Layout >
     );
 }
-
