@@ -12,7 +12,7 @@ export default function Header({ ...props }) {
                 {/* Logo - Left */}
                 <div className="justify-left mr-auto hidden md:block">
                     <Link href='/'>
-                        <Image className='inline' src='/images/logo/LC-Logo-Circle-V2-30px.png' width='30' height='30' alt='Linux Consulting - Logo'></Image>
+                        <Image className='inline' src='/images/logo/W-Logo-Circle-V2-30px.png' width='30' height='30' alt='Linux Consulting - Logo'></Image>
                         <span className='ml-2 h-[30] align-middle text-theme-g-3 text-sm hidden lg:inline-block'>
                             WintherConsulting.dk
                         </span>
