@@ -32,8 +32,8 @@ export default function Header({ ...props }) {
                 {/* Name - Right */}
                 <div className='text-theme-g-3 text-sm justify-end ml-auto hidden lg:block mt-[-6px] h-[40px]'>
                     <Link href='/about'>
-                        WintherConsulting.dk, Denmark<br />
-                        Technical Managing Consultant, Mogens Winther
+                        Technical Managing Consultant<br />
+                        Mogens Winther
                     </Link>
                 </div>
             </div>
