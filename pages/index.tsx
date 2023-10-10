@@ -122,21 +122,21 @@ export default function Home(props: any) {
       <div className='mt-8 py-8 bg-theme-g-0'>
         <LNXTwoGrid>
           <LNXMarkdownBlock data={props.blocks.intro} />
-          <LNXBackgroundImageBlock src='/images/large/ocean.jpg' />
+          <LNXBackgroundImageBlock className='max-h-[540px]' src='/images/large/ocean.jpg' />
         </LNXTwoGrid>
         <div className='h-8' />
         <LNXTwoGrid>
-          <LNXBackgroundImageBlock src='/images/large/direction.jpg' />
+          <LNXBackgroundImageBlock className='max-h-[540px]' src='/images/large/direction.jpg' />
           <LNXMarkdownBlock data={props.blocks.direction} />
         </LNXTwoGrid>
         <div className='h-8' />
         <LNXTwoGrid>
           <LNXMarkdownBlock data={props.blocks.empower} />
-          <LNXBackgroundImageBlock src='/images/large/teamwork.jpg' />
+          <LNXBackgroundImageBlock className='max-h-[540px]' src='/images/large/teamwork.jpg' />
         </LNXTwoGrid>
         <div className='h-8' />
         <LNXTwoGrid>
-          <LNXBackgroundImageBlock src='/images/large/shore_with_boat.jpg' />
+          <LNXBackgroundImageBlock className='max-h-[540px]' src='/images/large/shore_with_boat.jpg' />
           <LNXMarkdownBlock data={props.blocks.forward} />
         </LNXTwoGrid>
       </div>
