@@ -18,7 +18,8 @@ I think the pricing here is quite fair, and remember as you hire a consultant, y
 
 | Step | Cost ex VAT | Description |
 |-|-|-|
-| Initial analysis | 6.000 EUR | Initial analysis of the project scope and creation of an action plan and SOW during 2 weeks |
+| Introduction | A cup of coffee | Introduction to the project and the pain points, online or physical meeting of 3 hours |
+| Initial analysis | 7.500 EUR | Initial analysis of the project scope and creation of an action plan and SOW during 2 weeks |
 | Execution | 2.500 EUR/Week | Following weeks implementing and evaluating the action plan |
 
 
@@ -26,8 +27,8 @@ I think the pricing here is quite fair, and remember as you hire a consultant, y
 A monthly hire has a fixed cost and no startup fee.
 |Timeframe | Cost ex VAT | Description |
 |-|-|-|
-| 1-3 months | 10.000 EUR/month | Short term monthly cost |
-| 3+ months | 8.000 EUR/month | Long term monthly cost |
+| 1-3 months | 12.500 EUR/month | Short term monthly cost |
+| 3+ months | 10.000 EUR/month | Long term monthly cost |
 
 ## On-site and travel cost
 On-site work is expected in the startup of most projects.
