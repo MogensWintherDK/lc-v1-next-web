@@ -27,7 +27,7 @@ export async function getStaticProps() {
       draftMode: isLNXStagingMode(),
       revalidate: getLNXRevalidationTime(),
       metadata: {
-        title: 'IT Technical and Managing Consultant',
+        title: 'Mogens Winther - Technical Managing Consultant',
         description: 'Get experienced help to solve your challenges faster',
         keywords: 'IT, Technical, Managing, Experience, Developer, Empower, Team, Big picture, Direction',
         url: getLNXFullUrl('/'),
