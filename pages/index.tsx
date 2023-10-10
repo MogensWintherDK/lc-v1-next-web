@@ -31,7 +31,7 @@ export async function getStaticProps() {
         description: 'Get experienced help to solve your challenges faster',
         keywords: 'IT, Technical, Managing, Experience, Developer, Empower, Team, Big picture, Direction',
         url: getLNXFullUrl('/'),
-        thumb: getLNXFullUrl('/images/logo/W-Logo-Circle-V2-300px.png'),
+        thumb: getLNXFullUrl('/images/small/website.jpg'),
       } as ILNXMetadata,
     },
     revalidate: getLNXRevalidationTime(),
