@@ -18,9 +18,16 @@ If you are interested in my services for a short-term or long-term project, then
 - +45 299 399 80
 - [LinkedIn](https://www.linkedin.com/in/mogenswinther/)
 
+
+
 ## _Company information_
 - Linux Consulting ApS
 - Brombærvænget
 - 8464 Galten
 - DK - Denmark
 - VAT: DK32885233
+
+## How to pronounce my name
+When speaking English, you would normally say **Monz**. You could also say **Mo-gens**, but this works best in the British, German, and  Scandinavia languages.
+
+But don't worry if you get it wrong!
