@@ -14,7 +14,7 @@ export default function AboutPage(props: any): React.JSX.Element {
         <Layout metadata={props.metadata}>
             <LNXTwoGrid >
                 <LNXMarkdownBlock data={props.post} />
-                <LNXBackgroundImageBlock className='max-h-[700px]' src={props.post.frontmatter.image} />
+                <LNXBackgroundImageBlock className='mt-20 max-h-[540px]' src={props.post.frontmatter.image} />
             </LNXTwoGrid>
         </Layout >
     );
