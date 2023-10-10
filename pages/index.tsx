@@ -103,7 +103,7 @@ export default function Home(props: any) {
 
   return (
     <Layout metadata={props.metadata}>
-      {!props.draftMode && (
+      {props.draftMode && (
         <div className="bg-alert fixed top-0 z-[1000] p-2 m-2 rounded">Staging - Cache expires in {props.revalidate} sec</div>
       )}
       <LNXHeaderSection>
