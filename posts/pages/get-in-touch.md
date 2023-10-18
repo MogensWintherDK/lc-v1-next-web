@@ -14,7 +14,7 @@ If you are interested in my services for a short-term or long-term project, then
 
 ## _Contact information_
 - **Mogens Winther**
-- mw@linuxconsulting.dk
+- mw@wintherconsulting.dk
 - +45 299 399 80
 - [LinkedIn](https://www.linkedin.com/in/mogenswinther/)
 
