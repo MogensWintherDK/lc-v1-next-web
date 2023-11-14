@@ -2,7 +2,7 @@ import React from 'react';
 import { useState, useEffect, useRef, MutableRefObject } from 'react';
 import { IPostData } from '../services/PostsService';
 import Layout from '../components/Layout';
-import { Markdown } from "../libs/lib-lnx/utils/Markdown";
+import { LNXMarkdown } from "../libs/lib-lnx/utils/Markdown";
 import { getLNXNavigationHeaderHeight } from '../libs/lib-lnx/utils';
 import { LNXExternalLink } from '../libs/lib-lnx/components';
 
@@ -28,14 +28,13 @@ export default function LogoArticle({ content, frontmatter, metadata }: IPostDat
         handleResize();
     })
 
-    console.log(frontmatter)
     return (
         <Layout metadata={metadata}>
 
             {/* Article section */}
             <div ref={ref} className="PricingPage Slim">
                 <div className='pt-16 md:pr-96' style={{ minHeight: minHeight + 'px' }}>
-                    <Markdown content={content} />
+                    <LNXMarkdown content={content} />
                 </div>
             </div>
 
