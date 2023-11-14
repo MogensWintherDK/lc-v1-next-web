@@ -4,5 +4,5 @@ module.exports = {
     siteUrl: 'https://' + process.env.LNX_HOSTNAME,
     generateRobotsTxt: true,
     generateIndexSitemap: false,
-    exclude: ['/pain-points*'],
+    exclude: ['/pain-points', '/pain-points*'],
 }
