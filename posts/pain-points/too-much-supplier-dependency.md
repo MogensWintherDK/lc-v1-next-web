@@ -1,7 +1,7 @@
 ---
 title: Too much supplier dependency
-description: 
-keywords: 
+description: Discover the pain points associated with too much supplier dependency and how to navigate risks. Explore the importance of accessing suppliers, and evaluating alternative options to ensure your business remains resilient and agile. Take proactive steps to secure your supply chain and optimize your business development strategy.
+keywords: Supplier Dependency, Business Risks, Alternative Suppliers, Switching Suppliers, Supplier Focus, External Business Dependencies, Supplier Reliance, Supply Chain Risks, Mergers and Acquisitions, Business Continuity
 isPublished: true
 thumb: /images/prototype/lock.webp
 image: /images/prototype/lock.webp
@@ -21,8 +21,6 @@ links:
 # Too much supplier dependency
 
 When it comes to developing new solutions or concepts, it is common to rely on external suppliers, contractors, services, frameworks, and hosting. It helps reach the MVP faster and reduces the time to market. As it becomes more clear what our new solution/concept needs to be capable of, it also becomes more clear what technology or services it requires. Choosing the suppliers is not an easy task, even after a thorough assessment, and will require regular re-evaluation as the business grows and evolves. The more we know our business and solutions, the easier it will be to choose the best matching supplier.
-
-**Can you identify with any of these pain points?**
 ```
 
 ```video```
@@ -51,7 +49,9 @@ Preventing mergers, acquisitions, and bankruptcy is just as hard as preventing f
 ## Next step
 If you can identify with any of these pain points, you have already taken the first step towards a future with a more resilient and agile business development strategy.
 
-The next step is a deeper analysis of your business and supplier dependencies to recognize and address the challenges of the supplier dependencies. As an external professional with a fresh perspective, I can provide insights and strategies to navigate and midigate the risks. Together we can take the next step.  
+The next step is a deeper analysis of your business and supplier dependencies to recognize and address the challenges of the supplier dependencies. As an external professional with a fresh perspective, I can provide insights and strategies to navigate and mitigate the risks.
+
+**Together we can take the next step.**
 
 ### Useful links
 ```

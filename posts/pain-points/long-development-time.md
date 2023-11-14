@@ -24,8 +24,6 @@ links:
 When I speak with C-level executives their focus is on delivering new features, time to market, and staying competitive in a fast-moving market. With long development time and complex solutions, the edge position is quickly lost. It not only risks weakening the customer's interest but also puts the company at risk of losing potential revenue.
 
 The way forward is to identify and eliminate the blocking pain points following the company's requirements for speed, quality, and cost.
-
-**Can you identify with any of these pain points?**
 ```
 
 ```video```
@@ -54,6 +52,8 @@ While highly customized solutions may be perfect for specific needs, the risk is
 If you could identify with any of these pain points, you have already taken the first step towards a better future with more efficient development that aligns with your business goals. 
 
 The next step is a deeper analysis of your business, solutions, and processes to recognize and address the challenges of long development times. As an external professional with a fresh perspective, I can provide insights and strategies to navigate to overcome the challenges and pave the way for faster development that aligns with the business goals.
+
+**Together we can take the next step.**
 
 ### Useful links
 ```
