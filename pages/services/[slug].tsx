@@ -7,7 +7,8 @@ import BaloonArticle from '../../components/BaloonArticle';
 const category = 'services';
 
 export const getStaticPaths = async () => {
-    const paths = getPublishedPosts(category).map(({ slug }) => ({ params: { slug } }));
+    const posts = await getPublishedPosts(category);
+    const paths = posts.map(({ slug }) => ({ params: { slug } }));
 
     return {
         paths,

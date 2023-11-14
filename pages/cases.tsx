@@ -13,7 +13,7 @@ import { IPost } from '../services/PostsService';
 const slug = 'cases';
 
 export const getStaticProps = async () => {
-    const posts = getPublishedPosts(slug);
+    const posts = await getPublishedPosts(slug);
 
     const metadata: ILNXMetadata = {
         title: getLNXTitle('Services'),

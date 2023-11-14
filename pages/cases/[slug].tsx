@@ -8,7 +8,8 @@ import LogoArticle from '../../components/LogoArticle';
 const category = 'cases';
 
 export const getStaticPaths = async () => {
-    const paths = getPublishedPosts(category).map(({ slug }) => ({ params: { slug } }));
+    const posts = await getPublishedPosts(category);
+    const paths = posts.map(({ slug }) => ({ params: { slug } }));
 
     return {
         paths,
