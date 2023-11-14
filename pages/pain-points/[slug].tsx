@@ -7,7 +7,8 @@ import VideoArticle from '../../components/VideoArticle';
 const category = 'pain-points';
 
 export const getStaticPaths = async () => {
-    const paths = getPublishedPosts(category).map(({ slug }) => ({ params: { slug } }));
+    const posts = await getPublishedPosts(category);
+    const paths = posts.map(({ slug }) => ({ params: { slug } }));
 
     return {
         paths,
@@ -16,7 +17,7 @@ export const getStaticPaths = async () => {
 };
 
 export const getStaticProps = async ({ params }: { params: any }) => {
-    const { content, frontmatter } = await getPost(params.slug, category);
+    const { content, sections, frontmatter } = await getPost(params.slug, category);
 
     const metadata: ILNXMetadata = {
         title: getLNXTitle(frontmatter.title, category),
@@ -27,9 +28,11 @@ export const getStaticProps = async ({ params }: { params: any }) => {
         category: category,
     }
 
+    console.log(frontmatter);
     return {
         props: {
             content: content,
+            sections: sections,
             frontmatter: frontmatter,
             metadata: metadata,
         },
@@ -38,5 +41,5 @@ export const getStaticProps = async ({ params }: { params: any }) => {
 
 
 export default function ServicePage(props: IPostData): React.JSX.Element {
-    return <VideoArticle content={props.content} frontmatter={props.frontmatter} metadata={props.metadata} />
+    return <VideoArticle content={props.content} sections={props.sections} frontmatter={props.frontmatter} metadata={props.metadata} />
 };
