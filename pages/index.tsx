@@ -70,7 +70,8 @@ const sectionPainPoints = (): React.JSX.Element => {
     <div className='Slim mt-8'>
       <LNXHeaderSection>Pain points</LNXHeaderSection>
       <LNXTextSection>
-        Can you identify yourself with one or more of these common pain points?
+        Can you identify yourself with one or more of these common pain points?<br />
+        Click on one of the main categories to read more.
       </LNXTextSection>
       <LNXRow>
         <LNXCircleTextCard image_src='/images/prototype/calendar.webp' header='Long development time' link_text='Read more' link_href='/pain-points/long-development-time' />
