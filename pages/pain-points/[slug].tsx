@@ -28,7 +28,6 @@ export const getStaticProps = async ({ params }: { params: any }) => {
         category: category,
     }
 
-    console.log(frontmatter);
     return {
         props: {
             content: content,

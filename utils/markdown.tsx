@@ -63,9 +63,6 @@ export const getMarkdownFileContent = async (slug: string, category: string) => 
         sections[sectionKey] = sectionContent;
     }
 
-    console.log('Sections:');
-    console.log(sections);
-
     if (hasLNXNoItems(sections) == false) {
         content = '';
     }
