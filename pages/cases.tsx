@@ -16,9 +16,9 @@ export const getStaticProps = async () => {
     const posts = await getPublishedPosts(slug);
 
     const metadata: ILNXMetadata = {
-        title: getLNXTitle('Services'),
-        description: 'It is OK to ask for help!',
-        keywords: 'Services, Help',
+        title: getLNXTitle('Cases'),
+        description: 'The cases I have been involved in',
+        keywords: 'Cases, Cloudprinter.com, Foto.dk, startups, co-founder',
         url: getLNXFullUrl(slug),
         thumb: getLNXFullUrl('/images/small/migration.jpg'),
     }
