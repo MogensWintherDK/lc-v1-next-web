@@ -45,8 +45,7 @@ const Layout: React.FC<IProps> = ({ children, metadata }) => {
                     <meta property="og:title" content={meta.title} />
                     <meta property="og:description" content={meta.description} />
                     <meta property="og:url" content={meta.url} />
-
-
+                    <meta http-equiv="content-language" content="en" />
                     <link rel="icon" href="/favicon.ico" />
                 </Head>
 
