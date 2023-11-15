@@ -56,6 +56,8 @@ module.exports = {
         DEFAULT: {
           css: {
             maxWidth: 'none',
+            color: '#3c3c3a',
+            '--tw-prose-headings': '#3c3c3a',
           }
         }
       },
