@@ -1,7 +1,7 @@
 ---
 title: Anchored to legacy systems
-description: 
-keywords: 
+description: Explore the challenges of being anchored to legacy systems and discover strategies to navigate the complexities of transitioning to modern technologies. Learn how to overcome the hurdles of outdated technology, plan a seamless migration, and foster a future-ready technological landscape for your business.
+keywords: Legacy Systems, Technology Migration, Outdated Technology Challenges, Modernization Strategies, Business Technology Renewal, Agile Development Practices, Technological Transition, Comprehensive Technology Audit, Future-Ready Technological Landscape, Unshackling from Legacy Technology
 isPublished: true
 thumb: /images/prototype/lighthouse.webp
 image: /images/prototype/lighthouse.webp
