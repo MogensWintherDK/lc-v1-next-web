@@ -1,9 +1,10 @@
-import { LNXHeaderSection, LNXRow, LNXTextGridCard } from '../libs/lib-lnx/components';
+import { LNXHeaderSection, LNXRow } from '../libs/lib-lnx/components';
+import { LNXMarkdownBlock } from '../libs/lib-lnx/components/Blocks';
 import {
     isLNXStagingMode,
     getLNXRevalidationTime,
 } from '../libs/lib-lnx/utils';
-import { getPublishedPosts } from '../services/PostsService';
+import { getPostPage, getPublishedPosts } from '../services/PostsService';
 import Layout from '../components/Layout';
 import { LNXPostCard } from '../libs/lib-lnx/components/Cards';
 import { ILNXMetadata } from '../libs/lib-lnx/types/Metadata';
@@ -13,6 +14,7 @@ import { IPost } from '../services/PostsService';
 const slug = 'services';
 
 export const getStaticProps = async () => {
+    const post = await getPostPage(slug);
     const posts = await getPublishedPosts(slug);
 
     const metadata: ILNXMetadata = {
@@ -24,6 +26,7 @@ export const getStaticProps = async () => {
     }
     return {
         props: {
+            post: post,
             posts,
             draftMode: isLNXStagingMode(),
             revalidate: getLNXRevalidationTime(),
@@ -35,12 +38,9 @@ export const getStaticProps = async () => {
 export default function ServicesPage(props: any): React.JSX.Element {
     return (
         <Layout metadata={props.metadata}>
-            <LNXHeaderSection>
-                <div>
-                    <h1 className='text-2xl sm:text-4xl md:text-5xl font-bold'>It is OK to ask for help!</h1>
-                    <span className='text-xl sm:text-2xl md:text-3xl'>Take a deep-dive!</span>
-                </div>
-            </LNXHeaderSection>
+            <div className='Slim text-center'>
+                <LNXMarkdownBlock data={props.post} />
+            </div>
             <div className='PostsSection'>
                 <LNXRow cols='3'>
 
