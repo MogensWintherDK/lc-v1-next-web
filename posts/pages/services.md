@@ -1,3 +1,3 @@
 # Strategic Consulting for Business Transformation - Services
 
-At Winther Consulting, I offer comprehensive services designed to propel your business forward. My strategic consulting goes beyond conventional approaches, focusing on innovative solutions to drive meaningful transformation. Whether you need assistance with technology migration, overcoming supplier dependencies, or navigating legacy systems, let me  guiding you towards sustainable growth. Explore the diverse range of services here.
+At Winther Consulting, I offer comprehensive services designed to propel your business forward. My strategic consulting goes beyond conventional approaches, focusing on innovative solutions to drive meaningful transformation. Whether you need assistance with technology migration, overcoming supplier dependencies, or navigating legacy systems, let me guide you toward sustainable growth. Explore the diverse range of services here.

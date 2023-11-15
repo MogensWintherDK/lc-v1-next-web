@@ -18,9 +18,9 @@ export const getStaticProps = async () => {
     const posts = await getPublishedPosts(slug);
 
     const metadata: ILNXMetadata = {
-        title: getLNXTitle('Services'),
-        description: 'It is OK to ask for help!',
-        keywords: 'Services, Help',
+        title: getLNXTitle('Strategic Consulting for Business Transformation - Services'),
+        description: 'Elevate your business with Winther Consulting\'s strategic services. From technology migration to supplier dependency solutions, our comprehensive consulting services drive transformative growth. Explore our tailored strategies and innovative approaches designed to optimize your business processes and propel you toward success.',
+        keywords: 'Strategic Consulting, Business Transformation, Technology Migration, Supplier Dependency Solutions, Comprehensive Consulting Services, Transformative Growth Strategies, Business Process Optimization, Strategic Excellence, Innovation in Business, Tailored Business Solutions',
         url: getLNXFullUrl(slug),
         thumb: getLNXFullUrl('/images/small/migration.jpg'),
     }
