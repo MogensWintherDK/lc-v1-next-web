@@ -72,7 +72,7 @@ export default function VideoArticle({ content, sections, frontmatter, metadata 
                     )
                 }
 
-                <LNXRow style='Slim' cols='3'>
+                <LNXRow style='Slim' cols='3' centered={false}>
                     {frontmatter.links.map((link: { image_src: string; text: string; href: string; }, index: any) => (
                         <LNXCircleTextCard key={index} image_src={link.image_src} header={link.text} link_text='Read more' link_href={link.href} />
                     ))}
