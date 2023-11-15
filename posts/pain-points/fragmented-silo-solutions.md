@@ -18,9 +18,7 @@ links:
     image_src: "/images/small/pricing.jpg"
 ---
 ```header```
-# Fragmented silo solutions
-
-**Fragmented silo solutions: A barrier to business growth**
+# Fragmented silo solutions: A barrier to business growth
 
 Fragmentation within the organization, services, and data all impact business development and agility negatively. When teams are isolated in silos and not pulling in the same direction, the result is often a lack of synergy, limited or overly complex integrations between systems, lack of knowledge sharing and limited communication, and challenges in reaching real data-driven business processes. In this article, some of the common pain points are explored a bit further, and strategies for breaking down the silos are discussed.
 ```
