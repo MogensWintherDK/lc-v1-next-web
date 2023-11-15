@@ -5,6 +5,16 @@ keywords: Process, Goal, Action plan, Evaluate, SOW
 isPublished: false
 thumb: /images/small/process.jpg
 image: /images/large/process.jpg
+links:
+  - text: "Get in touch"
+    href: "/get-in-touch"
+    image_src: "/images/small/contact.jpg"
+  - text: "About"
+    href: "/about"
+    image_src: "/images/small/mogens_winther_bw.jpg"
+  - text: "Pricing"
+    href: "/pricing"
+    image_src: "/images/small/pricing.jpg"
 ---
 # Process
 
@@ -40,3 +50,5 @@ The content of the SOW includes
 **Management or hands-on**
 
 I can be a Managing Consultant only, or help with deeper levels of coding as needed. For me, it is just a puzzle, and I want each piece handled by the best-suited person, and then I can take the rest.
+
+## Useful links

@@ -5,6 +5,16 @@ keywords: Pricing, Cost
 isPublished: false
 thumb: /images/small/pricing.jpg
 image: /images/large/pricing.jpg
+links:
+  - text: "Get in touch"
+    href: "/get-in-touch"
+    image_src: "/images/small/contact.jpg"
+  - text: "About"
+    href: "/about"
+    image_src: "/images/small/mogens_winther_bw.jpg"
+  - text: "Process"
+    href: "/process"
+    image_src: "/images/small/process.jpg"
 ---
 
 # Pricing
@@ -47,3 +57,5 @@ Additional cost:
 - Invoices are sent after the fact
 - Invoices have the payment term of 10 working days
 - All prices are in EUR and ex VAT
+
+## Useful links

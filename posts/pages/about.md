@@ -5,6 +5,16 @@ keywords: Contact, Skills, background
 isPublished: true
 thumb: /images/small/mogens_winther_bw.jpg
 image: /images/large/mogens_winther_bw.jpg
+links:
+  - text: "Get in touch"
+    href: "/get-in-touch"
+    image_src: "/images/small/contact.jpg"
+  - text: "Technical skills"
+    href: "/technical-skills"
+    image_src: "/images/small/mogens_winther_bw.jpg"
+  - text: "Pricing"
+    href: "/pricing"
+    image_src: "/images/small/pricing.jpg"
 ---
 # whoami
 
@@ -55,3 +65,5 @@ Some examples:
 - Web-based photo solutions
     - Multi-customer site systems and customer customization
     - Uptime and performance monitoring system
+
+## Useful links

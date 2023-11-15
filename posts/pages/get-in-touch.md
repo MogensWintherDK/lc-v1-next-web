@@ -5,6 +5,16 @@ keywords: Contact, Call
 isPublished: true
 thumb: /images/small/contact.jpg
 image: /images/large/contact.jpg
+links:
+  - text: "About"
+    href: "/about"
+    image_src: "/images/small/mogens_winther_bw.jpg"
+  - text: "Process"
+    href: "/process"
+    image_src: "/images/small/process.jpg"
+  - text: "Pricing"
+    href: "/pricing"
+    image_src: "/images/small/pricing.jpg"
 ---
 # Get in touch
 
@@ -31,3 +41,6 @@ If you are interested in my services for a short-term or long-term project, then
 When speaking English, you would normally say **Monz**. You could also say **Mo-gens**, but this works best in the British, German, and  Scandinavia languages.
 
 But don't worry if you get it wrong!
+
+
+## Useful links

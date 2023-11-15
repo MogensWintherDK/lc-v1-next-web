@@ -4,7 +4,6 @@ import { IPostData } from '../services/PostsService';
 import Layout from '../components/Layout';
 import { LNXMarkdown } from "../libs/lib-lnx/utils/Markdown";
 import { getLNXNavigationHeaderHeight, LNXYouTubePlayer } from '../libs/lib-lnx/utils';
-import { LNXLink, LNXTwoGrid } from '../libs/lib-lnx/components';
 import { IMarkdownSections } from '../utils/markdown';
 import { LNXRow, LNXCircleTextCard } from '../libs/lib-lnx/components';
 

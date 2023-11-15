@@ -4,6 +4,7 @@ import { IPostData } from '../services/PostsService';
 import Layout from '../components/Layout';
 import { LNXMarkdown } from "../libs/lib-lnx/utils/Markdown";
 import { getLNXNavigationHeaderHeight } from '../libs/lib-lnx/utils';
+import { LNXRow, LNXCircleTextCard } from '../libs/lib-lnx/components';
 
 export default function BaloonArticle({ content, frontmatter, metadata }: IPostData): React.JSX.Element {
     const [imageSize, setImageSize] = useState(100);
@@ -36,6 +37,14 @@ export default function BaloonArticle({ content, frontmatter, metadata }: IPostD
                     <LNXMarkdown content={content} />
                 </div>
             </div>
+
+            {frontmatter.links && (
+                <LNXRow style='Slim justify-start' cols='5' centered={false}>
+                    {frontmatter.links.map((link: { image_src: string; text: string; href: string; }, index: any) => (
+                        <LNXCircleTextCard key={index} image_src={link.image_src} header={link.text} link_text='Read more' link_href={link.href} />
+                    ))}
+                </LNXRow>
+            )}
 
             {/* Baloon photo section */}
             <div className='bg-cover bg-demo absolute rounded-full z-0 hidden md:block'

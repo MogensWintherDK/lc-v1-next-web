@@ -5,6 +5,16 @@ keywords: Technical skills, Coding, Database, Framework, Container
 isPublished: true
 thumb: /images/small/skills.jpg
 image: /images/large/skills.jpg
+links:
+  - text: "Get in touch"
+    href: "/get-in-touch"
+    image_src: "/images/small/contact.jpg"
+  - text: "About"
+    href: "/about"
+    image_src: "/images/small/mogens_winther_bw.jpg"
+  - text: "Pricing"
+    href: "/pricing"
+    image_src: "/images/small/pricing.jpg"
 ---
 # Technical skills
 Things are growing faster than ever in the technical landscape, and more and more new tools and frameworks are popping up. We can not know them all, and we should not. The important thing is to know a few well and the general programming and system understanding, then we can quickly move to a new framework.
@@ -79,3 +89,5 @@ Things are growing faster than ever in the technical landscape, and more and mor
 | Digital circuit design and testing | General knowledge || Used in the early years of my working life, and often with embedded hardware.
 | Digital design review and debugging | General knowledge || Used in the early years of my working life, in review on a larger embedded platform with MIPS and multiple DSP processors. The first init, flashing, and configuration of boards alongside the required hardware debugging.  
 | Analog circuit design | Limited knowledge || Used in the early years of my working life, in minor analog extensions to digital setups and simple power supplies and IO interfaces.
+
+## Useful links
